@@ -1,0 +1,104 @@
+
+@font-face {
+  font-family: Bebas;
+  src :url(../font/BebasKai-Regular.otf);
+
+  font-family: ubuntu;
+  src: url(../font/UbuntuTitling-Bold.ttf);
+}
+
+
+body {
+  font-family:ubuntu;
+  font-weight: bold;
+  text-decoration: none;
+}
+.container {
+  padding: 20px;
+  font-size: 20;
+}
+
+section{
+  padding-top: 2.5rem;
+ 
+}
+hr{
+  width: 300px;
+  text-align: center;
+}
+.parallax1{
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/background.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parallax2{
+  width: 100vw;
+  height: auto;
+  background: url(../img/background2.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+
+}
+span.yellow-word{
+  color: #fcc419;
+}
+
+
+.banner h1 {
+  font-size: 70px;
+
+}
+a {
+  text-decoration: none;
+  color: #183153;
+  transition: all 0.3s ease-in-out; 
+
+}
+.banner {
+  top: 30vh;
+  position: relative;
+  text-decoration: none;
+  color: #183153e5;
+  font-size: 30px;
+  transition: all 0.3s ease-in-out; 
+  text-decoration: none;
+}
+.banner a:hover{
+font-size: 40px;
+color: #000000e1;
+}
+
+.banner2:hover{
+  font-size: 30px;
+  color: black;
+
+}
+
+.about {
+  height: 100vh;
+}
+
+.box-title{
+  margin:auto;
+  padding: 1rem;
+  text-align: center;
+  width: 300px;
+  height: 70px;
+  border-radius: 25px;
+  background-color: #fcc419;
+  border-bottom: 5px solid #8991a5 ;
+}
+
+.box-title:hover {
+  background-color: #fab005;
+  border-bottom: 5px solid #fcc419;
+}
+
+
+
